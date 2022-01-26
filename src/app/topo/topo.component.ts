@@ -12,4 +12,9 @@ export class TopoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public pesquisa(s: string): void {
+    console.log(s);
+    
+  }
+
 }
